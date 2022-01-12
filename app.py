@@ -174,13 +174,14 @@ def getNameEmojiMessage():
     name = "Tracy"
     message = dict()
     message["type"] = "text"
-    message["text"] = "$ LINE emoji $"
+    message["text"] = "".join("$" for r in range(len(name)))
     emojis_list = list()
     for i, nChar in enumerate(name):
         emojis_list.append(
-            {"index": 0
+            {
+             "index": i
              "productId": productId,
-             "emojiId":001 
+             "emojiId":f"{lookUpStr.index(nChar) + 1:03}" 
             }
         )
     message["emojis"] = emojis_list
