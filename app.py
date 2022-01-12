@@ -258,18 +258,18 @@ def getTaipei101ImageMessage(originalContentUrl=F"{end_point}/static/taipei_101.
 
 def getImageMessage(originalContentUrl):
     message = dict()
-
+    
     return message
 
 
 def replyMessage(payload):
-    response = {}
+    response = request.post('https://api.line.me/v2/bot/message/reply', headers = HEADERS)
     print(response.text)
     return 'OK'
 
 
 def pushMessage(payload):
-    response = {}
+    response = request.post('https://api.line.me/v2/bot/message/push', headers = HEADERS)
     print(response.text)
     return 'OK'
 
