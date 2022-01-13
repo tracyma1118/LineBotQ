@@ -88,7 +88,7 @@ def index():
                                       {
                                         "type": "uri",
                                         "label": "聯絡我",
-                                        "uri": "tel:0926780388"
+                                        "uri": "tel:0972062449"
                                       }
                                   ]
                               }
