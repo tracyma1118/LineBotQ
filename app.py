@@ -283,6 +283,18 @@ def getTaipei101LocationMessage():
     message["longitude"] = 121.3129
     return message
 
+# def getTaipei002LocationMessage():
+#     message = dict()
+#     message["type"] = "location"
+#     message["title"] = "台北孔廟"
+#     message["address"] = "台北市大同區大龍街275號"
+#     message["latitude"] = 25.0727
+#     message["longitude"] = 121.5161
+#     return message
+
+
+
+
 
 def getMRTVideoMessage():
     message = dict()
