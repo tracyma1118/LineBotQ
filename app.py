@@ -230,11 +230,11 @@ def getPlayStickerMessage():
     return message
 
 
-def getTaipei101LocationMessage():
+def getImageMessage(originalContentUrl):
     message = dict()
     message["type"] = "image"
-    message["originalContentUr"] = "https://example.com/original.jpg"
-    message["previewImageUrl"] = "https://example.com/preview.jpg"
+    message["originalContentUrl"] = originalContentUrl 
+    message["previewImageUrl"] = originalContentUrl
     return message
 
 
