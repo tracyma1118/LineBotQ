@@ -47,7 +47,7 @@ def index():
                     payload["messages"] = [getNameEmojiMessage()]
                 elif text == "出去玩囉":
                     payload["messages"] = [getPlayStickerMessage()]
-                elif text == "台北101":
+                elif text == "台北市立美術館":
                     payload["messages"] = [getTaipei101ImageMessage(),
                                            getTaipei101LocationMessage(),
                                            getMRTVideoMessage()]
