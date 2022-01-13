@@ -65,7 +65,7 @@ def index():
                                 "text": getTodayCovid19Message()
                             }
                         ]
-               elif text == "主選單":
+                elif text == "主選單":
                     payload["messages"] = [
                             {
                                 "type": "template",
