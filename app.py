@@ -272,13 +272,13 @@ def replyMessage(payload):
 
 
 def pushMessage(payload):
-    response = request.post('https://api.line.me/v2/bot/message/push', headers=HEADERS)
+    response = requests.post('https://api.line.me/v2/bot/message/push', headers=HEADERS)
     print(response.text)
     return 'OK'
 
 
 def getTotalSentMessageCount():
-    response = request.get('https://api.line.me/v2/bot/message/quota/consumption', headers=HEADERS)
+    response = requests.get('https://api.line.me/v2/bot/message/quota/consumption', headers=HEADERS)
     print(response.text)
     return response.json()['totalUsage']
 
