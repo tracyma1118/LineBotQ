@@ -232,7 +232,9 @@ def getPlayStickerMessage():
 
 def getTaipei101LocationMessage():
     message = dict()
-
+    message["type"] = "image"
+    message["originalContentUr"] = "https://example.com/original.jpg"
+    message["previewImageUrl"] = "https://example.com/preview.jpg"
     return message
 
 
