@@ -59,7 +59,7 @@ def index():
                             }
                         ]
                 elif text == "今日確診人數":
-                    payload["messages"] = [
+                   payload["messages"] = [
                             {
                                 "type": "text",
                                 "text": getTodayCovid19Message()
@@ -88,8 +88,8 @@ def index():
                                       {
                                         "type": "uri",
                                         "label": "聯絡我",
-                                        "uri": "email:aviltracy717@gmail.com"
-                                      }
+                                        "uri": "tel:0926780388
+                                      
                                   ]
                               }
                             }
