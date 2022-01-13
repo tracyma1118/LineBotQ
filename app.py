@@ -206,7 +206,7 @@ def getCarouselMessage(data):
                 "imageUrl": F"{end_point}/static/taipei_101.jpeg",
                 "action": {
                   "type": "postback",
-                  "label": "台北101",
+                  "label": "台北市立美術館",
                   "data": json.dumps(data)
                 }
               },
@@ -214,7 +214,7 @@ def getCarouselMessage(data):
                 "imageUrl": F"{end_point}/static/taipei_1.jpeg",
                 "action": {
                   "type": "postback",
-                  "label": "台北101",
+                  "label": "台北市立美術館",
                   "data": json.dumps(data)
                 }
               }
