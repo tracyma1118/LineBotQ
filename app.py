@@ -88,7 +88,7 @@ def index():
                                       {
                                         "type": "uri",
                                         "label": "聯絡我",
-                                        "uri": "email:yujiehuang1118@gmail.com"
+                                        "uri": "tel:yujiehuang1118@gmail.com"
                                       }
                                   ]
                               }
