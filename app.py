@@ -65,7 +65,7 @@ def index():
                                 "text": getTodayCovid19Message()
                             }
                         ]
-                elif text == "主選單":
+               elif text == "主選單":
                     payload["messages"] = [
                             {
                                 "type": "template",
@@ -88,7 +88,7 @@ def index():
                                       {
                                         "type": "uri",
                                         "label": "聯絡我",
-                                        "uri": "tel:yujiehuang1118@gmail.com"
+                                        "uri": "tel:0972062449"
                                       }
                                   ]
                               }
