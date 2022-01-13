@@ -265,19 +265,19 @@ def getImageMessage(originalContentUrl):
 
 
 def replyMessage(payload):
-    response = request.post('https://api.line.me/v2/bot/message/reply', headers = HEADERS)
+    response = request.post('https://api.line.me/v2/bot/message/reply', headers = headers)
     print(response.text)
     return 'OK'
 
 
 def pushMessage(payload):
-    response = request.post('https://api.line.me/v2/bot/message/push', headers = HEADERS)
+    response = request.post('https://api.line.me/v2/bot/message/push', headers = headers)
     print(response.text)
     return 'OK'
 
 
 def getTotalSentMessageCount():
-    response = request.get('https://api.line.me/v2/bot/message/quota/consumption', headers = HEADERS)
+    response = request.get('https://api.line.me/v2/bot/message/quota/consumption', headers = headers)
     print(response.text)
     return response.json()['totalUsage']
 
