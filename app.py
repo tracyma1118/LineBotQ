@@ -300,7 +300,7 @@ def getMRTSoundMessage():
     with audioread.audio_open('static/mrt_sound.m4a') as f:
         # totalsec contains the length in float
         totalsec = f.duration
-    message["duration"] = totalsec * 1000
+    message["duration"] = totalsec * 1500
     return message
 
 
