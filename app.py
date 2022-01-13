@@ -89,7 +89,7 @@ def index():
                                         "type": "uri",
                                         "label": "聯絡我",
                                         "uri": "tel:0926780388"
-                                      
+                                      }
                                   ]
                               }
                             }
