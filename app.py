@@ -265,7 +265,7 @@ def getImageMessage(originalContentUrl):
 
 
 def replyMessage(payload):
-    response = request.post('https://api.line.me/v2/bot/message/reply',
+    response = requests.post('https://api.line.me/v2/bot/message/reply',
                             headers=HEADERS)
     print(response.text)
     return 'OK'
